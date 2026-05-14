@@ -45,6 +45,15 @@ setup() {
 
     echo ""
     echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    echo " ~~~ Creating useful directories for the project"
+    echo ""
+    mkdir -p "$DIR_project/Agent_AI/Data"
+    mkdir -p "$DIR_project/Agent_AI/Output/Images"
+    mkdir -p "$DIR_project/Agent_AI/Project1_DualLensAnalytics/Data"
+    mkdir -p "$DIR_project/Agent_AI/Project1_DualLensAnalytics/Output/Images"
+
+    echo ""
+    echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     echo " Setup completed successfully."
     echo " Thank you for your patience!"
 }

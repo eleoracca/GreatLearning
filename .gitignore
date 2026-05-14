@@ -2,7 +2,12 @@
 # E.Racca (UNITO) e.racca@unito.it
 
 # ----------------------------------------------------
-## Gitignore folders
+## Gitignore folders & datatypes
+*.zip
+*.pdf
+**/Data/
+**/Output/
+**/config.json
 
 # ----------------------------------------------------
 ## Gitignore for Python
